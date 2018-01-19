@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DemoWeatherAPI.Model
 {
-    public class WheaterListElement
+    public class WeatherListElement
     {
         /// <summary>
         /// Elsődleges paraméterek
