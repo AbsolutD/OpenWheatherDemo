@@ -11,7 +11,7 @@ namespace DemoWeatherAPI.Model
         /// <summary>
         /// Időjárásjelentések listája
         /// </summary>
-        public List<WheaterListElement> list { get; set; }
+        public List<WeatherListElement> list { get; set; }
 
         /// <summary>
         /// Város
