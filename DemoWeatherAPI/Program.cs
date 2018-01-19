@@ -19,9 +19,9 @@ namespace DemoWeatherAPI
         
         static HttpClient client = new HttpClient();
         static string CityId = "7284830"; // Budapest XIII. kerulet
-        static string WrongCityId = "NAGYON ROSSZ"; // for testing 
+        //static string WrongCityId = "ROSSZ"; // for testing 
         static string ApiKey = "741b94ff3d88b65f07fad5c88f820c9e"; // Saját Api kulcs https://openweathermap.org/api
-        static string WrongApiKey = "NAGYON ROSSZ"; // for testing
+        //static string WrongApiKey = "ROSSZ"; // for testing
         static string RequestPath = "?id=" + CityId + "&APPID=" + ApiKey;
 
         static int MaxReportToShow = 4; // maximum number of wheather reports to show on console
